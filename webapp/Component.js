@@ -1,7 +1,6 @@
 sap.ui.define([
     "sap/ui/core/UIComponent",
-    "sap/suite/ui/commons/demo/tutorial/model/models",
-    "sap/ui/core/mvc/View"
+    "sap/suite/ui/commons/demo/tutorial/model/models"
 ], (UIComponent, models, View) => {
     "use strict";
 

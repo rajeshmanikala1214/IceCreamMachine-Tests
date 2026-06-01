@@ -105,6 +105,7 @@ module.exports = function(config) {
     ],
 
     concurrency: 1,
-    forceJSONP: false
+    forceJSONP: false,
+    browserConsoleLogOptions: { level: 'debug', terminal: true }, logLevel: config.LOG_DEBUG
   });
 };

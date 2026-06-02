@@ -51,7 +51,7 @@ module.exports = function(config) {
 
     junitReporter: {
       outputDir: 'reports',
-      outputFile: 'TESTS-karma.xml',
+      outputFile: 'reports/TESTS-karma.xml',
       useBrowserName: false,
       suite: 'KarmaTests'
     },
@@ -60,6 +60,7 @@ module.exports = function(config) {
     hostname: containerIp,
     listenAddress: '0.0.0.0',
 
+    processKillTimeout: 10000,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: false,

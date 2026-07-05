@@ -51,7 +51,7 @@ module.exports = function(config) {
 
     junitReporter: {
       outputDir: 'reports',
-      outputFile: 'test-execution.xml',
+      outputFile: 'reports/test-execution.xml',
       useBrowserName: false,
       suite: 'KarmaTests'
     },

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 150.0.0 (Windows 10.0.0)" package="" timestamp="2026-07-30T07:50:37" id="0" hostname="rajeshm-lap" tests="16" errors="0" failures="4" time="2.082">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="Reviews Controller - onHorizontalSwitchChange event handler Property changed according to switch state in timeline control - horizontal" time="0.002" classname="Chrome_150_0_0_(Windows_10_0_0).Reviews Controller - onHorizontalSwitchChange event handler"/>
+  <testcase name="Reviews Controller - onHorizontalSwitchChange event handler Property changed according to switch state in timeline control - vertical" time="0" classname="Chrome_150_0_0_(Windows_10_0_0).Reviews Controller - onHorizontalSwitchChange event handler"/>
+  <testcase name="ProcessFlow Controller - getValuesDelta formatter should return the delta with measure" time="0" classname="Chrome_150_0_0_(Windows_10_0_0).ProcessFlow Controller - getValuesDelta formatter"/>
+  <testcase name="ProcessFlow Controller - onNodePressed event handler Node title should be part of the message toast text" time="0.511" classname="Chrome_150_0_0_(Windows_10_0_0).ProcessFlow Controller - onNodePressed event handler">
+    <failure type="">MessageToast shown with correct text
+Expected: true
+Actual: false
+    at webapp/test/unit/controller/ProcessFlow.controller.js:62:11
+    at e (https://sapui5.hana.ondemand.com/resources/sap/ui/test/autowaiter/_timeoutWaiter.js:6:2649)
+
+</failure>
+  </testcase>
+  <testcase name="Launchpad Controller - formatJSONDate formatter JSON date is formatted to local date string" time="0.011" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - formatJSONDate formatter"/>
+  <testcase name="Launchpad Controller - getProgress formatter should return 0 if nodes are undefined" time="0.001" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - getProgress formatter"/>
+  <testcase name="Launchpad Controller - getProgress formatter should return 0 in nodes collection empty" time="0" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - getProgress formatter"/>
+  <testcase name="Launchpad Controller - getProgress formatter should return 0 if no node with positive state defined" time="0" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - getProgress formatter"/>
+  <testcase name="Launchpad Controller - getProgress formatter should return 50 if one of two nodes has the state &quot;Positive&quot;" time="0" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - getProgress formatter"/>
+  <testcase name="Launchpad Controller - getProgress formatter should return 100 if all nodes have the state &quot;Positive&quot;" time="0.001" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - getProgress formatter"/>
+  <testcase name="Launchpad Controller - onInit hook Init method creates model" time="0.005" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - onInit hook"/>
+  <testcase name="Launchpad Controller - getEntityCount formatter '0' returned in case no parameter is provided" time="0" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - getEntityCount formatter"/>
+  <testcase name="Launchpad Controller - getEntityCount formatter '1' returned in case one entry is inside the array" time="0" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - getEntityCount formatter"/>
+  <testcase name="Launchpad Controller - onTilePressed event handler If header and subheader are present, only header is part of the message toast text" time="0.517" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - onTilePressed event handler">
+    <failure type="">MessageToast shown with correct text
+Expected: true
+Actual: false
+    at Object.&lt;anonymous&gt; (webapp/test/unit/controller/Startpage.controller.js:155:11)
+    at e (https://sapui5.hana.ondemand.com/resources/sap/ui/test/autowaiter/_timeoutWaiter.js:6:2649)
+
+</failure>
+  </testcase>
+  <testcase name="Launchpad Controller - onTilePressed event handler If only Subheader is present, only Subheader is part of the message toast text" time="0.514" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - onTilePressed event handler">
+    <failure type="">MessageToast shown with correct text
+Expected: true
+Actual: false
+    at Object.&lt;anonymous&gt; (webapp/test/unit/controller/Startpage.controller.js:167:11)
+    at e (https://sapui5.hana.ondemand.com/resources/sap/ui/test/autowaiter/_timeoutWaiter.js:6:2649)
+
+</failure>
+  </testcase>
+  <testcase name="Launchpad Controller - onTilePressed event handler If nothing is present, the message toast contains generic text" time="0.52" classname="Chrome_150_0_0_(Windows_10_0_0).Launchpad Controller - onTilePressed event handler">
+    <failure type="">MessageToast shown with correct text
+Expected: true
+Actual: false
+    at Object.&lt;anonymous&gt; (webapp/test/unit/controller/Startpage.controller.js:182:11)
+    at e (https://sapui5.hana.ondemand.com/resources/sap/ui/test/autowaiter/_timeoutWaiter.js:6:2649)
+
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[Chrome 150.0.0 (Windows 10.0.0) INFO: '2026-07-30 13:20:36 [context.html] Device API logging initialized - DEVICE'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

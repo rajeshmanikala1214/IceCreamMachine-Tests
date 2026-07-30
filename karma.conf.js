@@ -38,7 +38,7 @@ module.exports = function(config) {
     },
 
     // Adjusted to remove 'sonarGeneric' reporter
-    reporters: ['progress', 'coverage', 'junit'],
+    reporters: ['progress', 'coverage', 'junit', 'sonarqubeUnit'],
 
     coverageReporter: {
       dir: 'reports',
@@ -49,13 +49,11 @@ module.exports = function(config) {
       ]
     },
 
-    junitReporter: {
-      outputDir: 'reports',
-      outputFile: 'reports/test-execution.xml',
-      useBrowserName: false,
-      suite: 'KarmaTests'
+    sonarQubeUnitReporter: {
+    sonarQubeVersion: "LATEST",
+    outputFile: "reports/test-execution.xml",
+    useBrowserName: false
     },
-    
     port: 9876,
     hostname: containerIp,
     listenAddress: '0.0.0.0',
@@ -101,7 +99,8 @@ module.exports = function(config) {
       'karma-junit-reporter',
       'karma-browserify',
       'karma-coverage',
-      'karma-webdriver-launcher'
+      'karma-webdriver-launcher',
+      'karma-sonarqube-unit-reporter'
     ],
 
     concurrency: 1,

@@ -51,7 +51,7 @@ module.exports = function(config) {
 
     sonarQubeUnitReporter: {
     sonarQubeVersion: "LATEST",
-    outputFile: "reports/test-execution.xml",
+    outputFile: "reports/Test-execution.xml",
     useBrowserName: false
     },
     port: 9876,
